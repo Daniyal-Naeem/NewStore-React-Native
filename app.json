@@ -2,8 +2,8 @@
   "expo": {
     "name": "NewStore",
     "slug": "NewStore",
-    "version": "1.0.0",
     "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./app/assets/icon.png",
     "splash": {
@@ -14,12 +14,10 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
-    }
- 
+    },
+    "description": "A marketplace for selling the stuff you don't need anymore."
   }
 }
